@@ -1,0 +1,12 @@
+body {
+	background: blue;
+	color: white;
+	text-align: center;
+}
+img {
+//	border: 10px solid red;
+//border: 10px dotted red;
+border: 10px groove red;
+width: 25%;
+height: 250;
+}
