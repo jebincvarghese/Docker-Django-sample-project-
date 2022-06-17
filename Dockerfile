@@ -11,7 +11,5 @@ RUN python /app/manage.py collectstatic --no-input
 RUN python /app/manage.py makemigrations 
 RUN python /app/manage.py migrate
 
-#EXPOSE 80
-
-ENTRYPOINT ["python", "/app/manage.py", "runserver", "0.0.0.0:80"]
+ENTRYPOINT ["python", "/app/manage.py", "runserver", "0.0.0.0:8082"]
 
